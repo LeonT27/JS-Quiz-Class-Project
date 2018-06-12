@@ -1,12 +1,64 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Simple JS Quiz</title>
-        <link rel="stylesheet" href="css/style.css"/>
-        
-    </head>
-    <body>
-        
-        <script src="js/script.js"></script>
-    </body>
+
+<head>
+    <title>Simple JS Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Como partir a Richi!</h1>
+            <p>Vamo av si tu sabe como</p>
+        </header>
+        <section>
+            <div class="result"></div>
+            <form name="quizForm" onsumit="return submitAnswers()">
+                <h3>1. ?</h3>
+                <input type="radio" name="Q1" value="a" id="Q1a" />a) <br/>
+                <input type="radio" name="Q1" value="b" id="Q1b" />b) <br/>
+                <input type="radio" name="Q1" value="c" id="Q1c" />c) <br/>
+
+                <h3>2. ?</h3>
+                <input type="radio" name="Q2" value="a" id="Q2a" />a) <br/>
+                <input type="radio" name="Q2" value="b" id="Q2b" />b) <br/>
+                <input type="radio" name="Q2" value="c" id="Q2c" />c) <br/>
+
+                <h3>3. ?</h3>
+                <input type="radio" name="Q3" value="a" id="Q3a" />
+                <p class="radioText">a) <br/>
+                <input type="radio" name="Q3" value="b" id="Q3b" />
+                <p class="radioText">b) </p>
+                <input type="radio" name="Q3" value="c" id="Q3c" />
+                <p class="radioText">c) </p>
+
+                <h3>4. ?</h3>
+                <input type="radio" name="Q4" value="a" id="Q4a" />
+                <p class="radioText">a) </p>
+                <input type="radio" name="Q4" value="b" id="Q4b" />
+                <p class="radioText">b) </p>
+                <input type="radio" name="Q4" value="c" id="Q4c" />
+                <p class="radioText">c) </p>
+
+                <h3>5. ?</h3>
+                <input type="radio" name="Q5" value="a" id="Q5a" />
+                <p class="radioText">a) </p>
+                <input type="radio" name="Q5" value="b" id="Q5b" />
+                <p class="radioText">b) </p>
+                <input type="radio" name="Q5" value="c" id="Q5c" />
+                <p class="radioText">c) </p>
+                
+                <input type="submit" value="Enviar respuestas" />
+            </form>
+        </section>
+        <footer>
+            <p>Copyrigth &copy; 2018, ASOPALTIRICHI</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
 </html>
